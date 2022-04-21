@@ -1,0 +1,104 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    width: 15rem;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 5rem;
+}
+
+.image {
+    height: 15rem;
+    width: 15rem;
+    background-image: url('images/image-equilibrium.jpg');
+    background-size: cover;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.container h5 {
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    line-height: 1.2rem;
+}
+
+.Equilibrium {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.price {
+    display: flex;
+}
+
+.value {
+    display: flex;
+}
+
+.value img {
+    height: 18px;
+}
+
+.value p {
+    font-weight: 600;
+    font-size: 14px;
+    color: hsl(178, 100%, 50%);
+    margin-top: -0rem;
+    margin-left: 0.3rem;
+}
+
+.timer {
+    margin-left: auto;
+    display: flex;
+}
+
+.timer img {
+    height: 18px;
+}
+
+.timer p {
+    font-weight: 600;
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+    margin-top: -0rem;
+    margin-left: 0.3rem;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+}
+
+.profile{
+    display: flex;
+}
+
+.profile img{
+    height: 1.5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.profile h5{
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+    font-size: 11px;
+}
+
+.profile h5 span{
+    color: hsl(0, 0%, 100%) ;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
