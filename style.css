@@ -3,7 +3,7 @@ body {
     background-color: hsl(217, 54%, 11%);
 }
 
-.container {
+.card {
     width: 15rem;
     padding: 1rem;
     margin: auto;
@@ -22,7 +22,7 @@ body {
     border-radius: 10px;
 }
 
-.container h5 {
+.card h5 {
     color: hsl(215, 51%, 70%);
     font-size: 12px;
     line-height: 1.2rem;
@@ -74,25 +74,26 @@ hr {
     color: hsl(215, 32%, 27%);
 }
 
-.profile{
+.profile {
     display: flex;
+    height: 2.2rem;
 }
 
-.profile img{
+.profile img {
     height: 1.5rem;
     border: 1px solid white;
     border-radius: 50%;
     margin-top: 8px;
 }
 
-.profile h5{
+.profile h5 {
     margin-top: 0.7rem;
     margin-left: 0.7rem;
     font-size: 11px;
 }
 
-.profile h5 span{
-    color: hsl(0, 0%, 100%) ;
+.profile h5 span {
+    color: hsl(0, 0%, 100%);
 }
 
 .attribution {
